@@ -1,6 +1,6 @@
 # reactland-webpack-template
 ## webpack.config.js
-...javascript
+```javascript
 const webpack = require("webpack")
 const path = require("path")
 const ExtractTextWebpackPlugin = require("extract-text-webpack-plugin")
@@ -55,4 +55,4 @@ if (process.env.NODE_ENV === 'production') {
         new OptimizeCSSAssets()
     );
 }
-...
+```
